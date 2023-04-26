@@ -1,0 +1,8 @@
+[Unit]
+Description=HSS MCC DAQ recorder server
+
+[Service]
+ExecStart=python3 -u /home/pi/main.py
+User=pi
+Group=pi
+WorkingDirectory=/home/pi
